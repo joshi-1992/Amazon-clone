@@ -39,7 +39,7 @@ function Login() {
         <img className="login_logo" src="/Amazon-Logo2.png" alt="" />
       </Link>
 
-      <div className="login__container">
+      <div className="login_container">
         <h1>Sign-in</h1>
 
         <form>
@@ -57,11 +57,7 @@ function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
 
-          <button
-            type="submit"
-            onClick={signIn}
-            className="login__signInButton"
-          >
+          <button type="submit" onClick={signIn} className="login_signInButton">
             Sign In
           </button>
         </form>
@@ -70,7 +66,7 @@ function Login() {
           Sale. Please see our Privacy Notice, our Cookies Notice and our
           Interest-Based Ads Notice.
         </p>
-        <button onClick={register} className="login__registerButton">
+        <button onClick={register} className="login_registerButton">
           Create your Amazon Account
         </button>
       </div>
